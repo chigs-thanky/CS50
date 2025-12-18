@@ -14,4 +14,8 @@ int main(void){
     else{
         printf("x is equal to y\n");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0998d2a112cf11609d8df506f582f499bb7c770a
