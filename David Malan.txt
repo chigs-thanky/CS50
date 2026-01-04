@@ -1,1 +1,6 @@
 David Malan is the instructor of the course CS50 - Introduction to Computer Science at Harvard Univeristy from MIT - Massachussets Institute of Technology.
+
+IMP NOTES:
+In C-Programming using CS50, to get return value, use following command:
+	--> ./program_name
+	--> echo $?
