@@ -6,13 +6,14 @@ int main(void){
     printf("Enter a number: ");
     int num;
     scanf("%d", &num);
-    printf("Factorial of %d = %d", num, factorial(num));
+    //printf("Factorial of %d = %d", num, factorial(num)); 
+    printf("Factorial of %d = %lld", num, factorial(num)); //for long numbers
 }
 
 int factorial(int n){
-    if (n==0){
-    return 1;
-    }
+////    if (n==0){
+////    return 1;
+//    }
     return n * factorial(n-1);
-    return 0;
+//    return 0;
 }
